@@ -1,0 +1,41 @@
+div{
+    width: 1500px;
+    height: 150px;
+    display: flex;
+    background-color:dodgerblue;
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+}
+
+img{
+    justify-content: flex-start;
+    width: 85px;
+    height: 85px;
+    margin-left: 25px;
+}
+
+h1{
+    justify-content: space-between;
+    margin-left: 70px;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+    text-align: right;
+    margin-right: -40px;
+}
+
+li{
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-right: 175px ;
+}
